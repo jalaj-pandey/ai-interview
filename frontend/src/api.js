@@ -4,7 +4,7 @@ const fakeQuestions = [
   { id: "q3", text: "How do you create a Pivot Table?" },
   { id: "done", text: "Interview completed!" },
 ];
-
+const API_BASE = "https://my-backend.onrender.com";
 let qIndex = 0;
 
 export async function createSession({ name }) {
